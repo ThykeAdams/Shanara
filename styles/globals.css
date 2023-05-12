@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #242e42 !important;
+  color: #fff;
+  overflow-x: hidden
+}
+main {
+  margin-top: 5rem;
+
+}
+.bg-lighter {
+  background-color: #2B374E !important;
+}
+.bg-lighter-x2 {
+  background-color: #3a4966 !important;
+}
+.bg-lighter-x3 {
+  background-color: #495979 !important;
+}
+.blur-4xl {
+  --tw-blur: blur(100px);
+  filter: var(--tw-filter);
+}
+.imp-overflow-hidden {
+  overflow: hidden !important;
+  overflow-y: hidden;
+}
+.shanara-visual {
+  @apply rounded-xl shadow-2xl hover:rounded-none hover:scale-105 transition-all duration-500
+}
+
+.w-vw-70 {
+  width: 70vw
+}
+
+.noselect {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+::-webkit-scrollbar {
+  border-top-left-radius: 0.75rem;
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #242e42; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-bottom-left-radius: 0.75rem;
+  background: #2B374E; 
+}
+
+
+/* Extended Tailwind */
+@media (max-width: 640px) {
+  .bsm\:w-screen {
+    width: 100vw;
+  }
+}
+@media (max-width: 640px) {
+  .bsm\:h-screen {
+    height: 100vh;
+  }
+}
+@media (max-width: 640px) {
+  .bsm\:screen {
+    height: 80vh;
+    width: 100vw;
+  }
+}
+@media (max-width: 640px) {
+  .bsm\:w-36 {
+    width: 9rem/* 144px */;
+  }
+}
+@media (max-width: 640px) {
+  .bsm\:h-36 {
+    height: 9rem/* 144px */;
+  }
+}
+@media (max-width: 640px) {
+  .bsm\:fixed {
+    position: fixed;
+  }
+}
+@media (max-width: 640px) {
+  .bsm\:mt-5 {
+    margin-top: 5rem;
+  }
+}
+@media (max-width: 640px) {
+  .bsm\:mt-0 {
+    margin-top: 0rem;
+  }
+}
+@media (max-width: 640px) {
+  .bsm\:w-full {
+    width: 100%;
+  }
+}
+
+
+
+@media (max-width: 640px) {
+  .bsm\:px-2 {
+    padding-left: 2rem/* 384px */;
+    padding-right: 2rem/* 384px */;
+  }
+}
+@media (max-width: 640px) {
+  .bsm\:items-center {
+    align-items: center;
+  }
+}
+@media (max-width: 640px) {
+  .bsm\:z-50 {
+    z-index: 50;
+  }
+}
+@media (max-width: 640px) {
+  .bsm\:top-5 {
+    top: 5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .bsm\:flex-col {
+    flex-direction: column;
+  }
+}
